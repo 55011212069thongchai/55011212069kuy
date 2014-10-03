@@ -12,22 +12,34 @@
 	<dict>
 		<key>40436A7701E5B6243D7C478D0A58D30F4246BE5A</key>
 		<string>https://github.com/55011212112tech/55011212112Wissawa.git</string>
+		<key>F198CB858465388F06B2D7D435296B2AF46E4965</key>
+		<string>https://github.com/55011212069thongchai/55011212069kuy.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>random/random.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>40436A7701E5B6243D7C478D0A58D30F4246BE5A</key>
+		<string>../../../../55011212112Wissawa</string>
+		<key>F198CB858465388F06B2D7D435296B2AF46E4965</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/55011212112tech/55011212112Wissawa.git</string>
+	<string>https://github.com/55011212069thongchai/55011212069kuy.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>40436A7701E5B6243D7C478D0A58D30F4246BE5A</string>
+	<string>F198CB858465388F06B2D7D435296B2AF46E4965</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F198CB858465388F06B2D7D435296B2AF46E4965</string>
+			<key>IDESourceControlWCCName</key>
+			<string>55011212069kuy</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

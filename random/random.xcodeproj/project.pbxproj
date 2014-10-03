@@ -405,6 +405,7 @@
 				3FF7E2DD19DE8388008B4006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF7E2DE19DE8388008B4006 /* Build configuration list for PBXNativeTarget "randomTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				3FF7E2E019DE8388008B4006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

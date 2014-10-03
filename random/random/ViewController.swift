@@ -31,6 +31,15 @@ class ViewController: UIViewController {
         l3.text = String(i3)
     }
     
+    @IBAction func clear(sender: AnyObject) {
+        l1.text = String(0)
+        l2.text = String(0)
+        l3.text = String(0)
+         i1=0
+         i2=0
+         i3=0
+        
+    }
     @IBOutlet weak var l1: UILabel!
     @IBOutlet weak var l2: UILabel!
     @IBOutlet weak var l3: UILabel!
