@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>43DC26BF-2A64-45CB-AE22-2215D2045F25</string>
+	<string>512EFF86-FC66-4AA9-9DC5-A2295A7478F6</string>
 	<key>IDESourceControlProjectName</key>
-	<string>tipCalculator</string>
+	<string>random</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>40436A7701E5B6243D7C478D0A58D30F4246BE5A</key>
 		<string>https://github.com/55011212112tech/55011212112Wissawa.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>tipCalculator/tipCalculator.xcodeproj</string>
+	<string>random/random.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>40436A7701E5B6243D7C478D0A58D30F4246BE5A</key>
