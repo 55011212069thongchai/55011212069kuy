@@ -86,7 +86,7 @@ if airports.isEmpty
 }
 else
 {
-    print"The airports dictionary contains\(airports.count) items."
+    printf"The airports dictionary contains\(airports.count) items."
 }
 //prints "The airports dictionary is not empty."
 
@@ -103,7 +103,7 @@ airports["LHR"]="London Heathrow"
 
 if let oldvalue = airports.updateValue("Dublin International", forKey: "DUB")
 {
-    println("The old value for DUB was \(oldValue).")
+    println("The old value for DUB was \(oldvalue).")
 }
 //prints "The old value for DUB was Dublin."
 

@@ -27,14 +27,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="gmf-LR-CAo">
-                                <rect key="frame" x="220" y="170" width="337" height="31"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <action selector="slide:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Djc-3I-dl6"/>
-                                    <outletCollection property="gestureRecognizers" destination="ejj-ZW-3PO" appends="YES" id="GeF-oy-Mec"/>
-                                </connections>
-                            </slider>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tax Percentage(0%)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70G-Mv-Deo">
                                 <rect key="frame" x="43" y="174" width="154" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -57,6 +49,14 @@
                                     <action selector="button:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="t54-uW-IH5"/>
                                 </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="gmf-LR-CAo">
+                                <rect key="frame" x="225" y="170" width="337" height="31"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <action selector="slide:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Djc-3I-dl6"/>
+                                    <outletCollection property="gestureRecognizers" destination="ejj-ZW-3PO" appends="YES" id="GeF-oy-Mec"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
