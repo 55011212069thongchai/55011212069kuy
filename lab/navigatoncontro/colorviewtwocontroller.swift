@@ -9,30 +9,22 @@
 import UIKit
 
 class colorviewtwocontroller: UIViewController {
-
+    
+    var colorString = ""
+    
+    
     @IBOutlet var colorlabel: UILabel!
-    @IBAction func colorselection(sender: AnyObject) {
+    
+    @IBAction func colorb(sender: AnyObject)
+    {
+        colorlabel.text = sender.titleLabel!?.text!
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        colorlabel.text = colorString
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -8,16 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,colorviewtwocontroller {
 
     @IBOutlet var colorlabel: UILabel!
     override func viewDidLoad() {
+        
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+    
+        if  segue.identifier == "MySegue"{
+        let vc = segue.destinationViewController as colorviewtwocontroller
+            vc.colorString = colorlabel.text!
+            
+        }
+    }
 }
 
